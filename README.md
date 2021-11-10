@@ -25,4 +25,4 @@ Note II: Potentially useful graph alignments can be obtained by adding one or tw
 
 ## Help
 
-Please file an issue or contact me [via mail](opitz@cl.uni-heidelberg.de?subject=[GitHub] Argument AMR similarity)
+Please file an issue or contact me [via mail](opitz@cl.uni-heidelberg.de?subject=[GitHub]%Argument%AMR%similarity)
