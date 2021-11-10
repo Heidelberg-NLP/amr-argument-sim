@@ -14,7 +14,7 @@ For the data, generated conclusions, and AMR parses see `data/`.
 
 ```
 cd amr-metric-suite/py3-Smatch-and-S2match/smatch/
-python s2match.py -f <firstamrfile> <secondamrfile> -cutoff=0.95 --ms
+python s2match.py -f <firstamrfile> <secondamrfile> -cutoff 0.95 --ms
 ```
 3. mix similarities with lambda=0.95.
 
