@@ -20,6 +20,13 @@ python s2match.py -f <firstamrfile> <secondamrfile> -cutoff 0.95 --ms
 
 4. Evaluate against human scores, as contained in `data/UKP_aspect.tsv`. Macro F1: a) fuse 4-way labels to binary label (as described in [Reimers et al. 2019](https://arxiv.org/abs/1906.09821)), then b) use cross-val as described in Reimers for threshold (as also described in Reimers et al). For other evaluation metrics, Pearsonr, Spearmanr, etc. computation is straightforward.
 
+For steps 2 and 3 see example by running
+
+```
+cd scripts
+./evaluate_all.sh
+```
+
 Note I: S2match is only a small change to its ancestor Smatch (which is more or less S2match with cutoff=1.0), so Smatch will generally return similar results.
 
 Note II: Potentially useful graph alignments can be obtained by adding one or two lines in `s2match.py` main function (the alignment is contained in `best_mapping`).
